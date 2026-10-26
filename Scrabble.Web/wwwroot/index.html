@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Word Square</title>
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="kicker">WORD SQUARE</p>
+        <h1 id="gameTitle">New game</h1>
+      </div>
+      <button id="menuButton" class="icon-button" type="button" aria-label="Game menu" aria-expanded="false">•••</button>
+    </header>
+
+    <aside id="gameMenu" class="game-menu" hidden>
+      <label>Player name<input id="playerName" maxlength="24" autocomplete="name" placeholder="Your name"></label>
+      <label>Join code<input id="joinCode" maxlength="6" autocomplete="off" placeholder="ABC123"></label>
+      <div class="menu-actions">
+        <button id="createButton" class="primary-button" type="button">Create game</button>
+        <label><input id="computerOpponent" type="checkbox"> Computer opponent</label>
+        <button id="joinButton" class="secondary-button" type="button">Join game</button>
+      </div>
+    </aside>
+
+    <section class="game-layout">
+      <aside class="score-panel" aria-label="Players and move history">
+        <div id="players" class="players"></div>
+        <section class="history-panel" aria-label="Move history">
+          <h2>History</h2>
+          <div id="history"></div>
+        </section>
+      </aside>
+
+      <section class="board-column">
+        <div id="board" class="board" role="grid" aria-label="Scrabble board" tabindex="0"></div>
+
+        <section class="rack-section" aria-label="Tile rack">
+          <div id="rack" class="rack"></div>
+          <button id="shuffleButton" class="icon-button" type="button" aria-label="Shuffle rack" title="Shuffle rack">↻</button>
+        </section>
+
+        <div class="turnbar">
+          <span id="computerLoader" class="computer-loader" role="status" aria-label="Computer is thinking" hidden>
+            <span class="spinner" aria-hidden="true"></span>
+            <span>Computer is thinking</span>
+          </span>
+          <p id="turnStatus">Create or join a game</p>
+          <p id="previewScore" class="preview-score" aria-live="polite">No preview</p>
+          <button id="recallButton" class="secondary-button" type="button" disabled>Recall</button>
+          <button id="exchangeButton" class="secondary-button" type="button" disabled>Exchange</button>
+          <button id="passButton" class="secondary-button" type="button" disabled>Pass</button>
+          <button id="playButton" class="primary-button" type="button" disabled>Play</button>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="blankDialog">
+    <form method="dialog">
+      <h2>Choose a letter</h2>
+      <div id="blankLetters" class="letter-grid"></div>
+    </form>
+  </dialog>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.7/signalr.min.js"></script>
+  <script type="module" src="/js/main.js?v=3"></script>
+</body>
+</html>

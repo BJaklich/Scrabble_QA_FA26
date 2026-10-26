@@ -1,0 +1,11 @@
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\bin\Debug\net9.0\Scrabble.Core.deps.json
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\bin\Debug\net9.0\Scrabble.Core.dll
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\bin\Debug\net9.0\Scrabble.Core.pdb
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\obj\Debug\net9.0\Scrabble.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\obj\Debug\net9.0\Scrabble.Core.AssemblyInfoInputs.cache
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\obj\Debug\net9.0\Scrabble.Core.AssemblyInfo.cs
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\obj\Debug\net9.0\Scrabble.Core.csproj.CoreCompileInputs.cache
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\obj\Debug\net9.0\Scrabble.Core.dll
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\obj\Debug\net9.0\refint\Scrabble.Core.dll
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\obj\Debug\net9.0\Scrabble.Core.pdb
+C:\Users\horse\WU CS\CS320 QA\ex08_01\Scrabble.Core\obj\Debug\net9.0\ref\Scrabble.Core.dll

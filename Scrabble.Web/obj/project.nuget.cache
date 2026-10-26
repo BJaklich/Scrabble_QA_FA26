@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "hr/yemCp7nU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\horse\\WU CS\\CS320 QA\\ex08_01\\Scrabble.Web\\Scrabble.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\horse\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.22\\microsoft.aspnetcore.openapi.9.0.22.nupkg.sha512",
+    "C:\\Users\\horse\\.nuget\\packages\\microsoft.openapi\\1.6.31\\microsoft.openapi.1.6.31.nupkg.sha512"
+  ],
+  "logs": []
+}
