@@ -1,0 +1,13 @@
+*.dll
+*.pdb
+*.cache
+*.build.json
+*.development.json
+*.endpoints.json
+*.sourcelink.json
+*.assets.json
+*.FileListAbsolute.txt
+*.gz
+*.editorconfig
+Scrabble.Core/obj/Scrabble.Core.csproj.nuget.dgspec.json
+Scrabble.Core/obj/Debug/net9.0/Scrabble.Core.AssemblyInfo.cs
